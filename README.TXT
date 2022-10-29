@@ -1,3 +1,6 @@
+  RCC->CR |= ((uint32_t)RCC_CR_HSEON);
+
+
 实验器材:
 	战舰STM32F103开发板V3版本
 	
