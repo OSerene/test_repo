@@ -21,6 +21,7 @@
 APB1
 不需要的修改
 test01.cpp.hex
+test02.cpp.hex
 
 u32 testsram[250000] __attribute__((at(0X68000000)));//测试用数组
 //外部内存测试(最大支持1M字节内存测试)	 
