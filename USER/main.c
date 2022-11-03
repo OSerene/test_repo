@@ -39,7 +39,7 @@ void fsmc_sram_test(u16 x,u16 y)
 	{
   		FSMC_SRAM_ReadBuffer(&temp,i,1);
 		int a = 20;
-		int arr[5]={0}; //sourceTree: int arr[5]={0};
+		int arr[5]={0}; //sourceTree: int arr[5]={xxxxx};
 		if(i==0)sval=temp;
  		else if(temp<=sval)break;//后面读出的数据一定要比第一次读到的数据大.	   		   
 		LCD_ShowxNum(x+15*8,y,(u16)(temp-sval+1)*4,4,16,0);//显示内存容量  
