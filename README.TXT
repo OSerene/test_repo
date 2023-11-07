@@ -1,3 +1,4 @@
+test git ignore
 
 实验器材:
 	战舰STM32F103开发板V3版本
